@@ -8,10 +8,10 @@ backend:
   #   uploadMedia: '[skip ci] Upload “{{path}}”'
   #   deleteMedia: '[skip ci] Delete “{{path}}”'
   name: git-gateway
-  branch: master
-  identity_url: "http://localhost:8080"
-  gateway_url:  "http://localhost:8081"
-  site_domain:  "https://vibrant-wing-ee8037.netlify.app/"
+  branch: practice-baranch
+  identity_url: "http://localhost:8085/.netlify/identity/"
+  gateway_url:  "http://localhost:8085/.netlify/git/"
+  # site_domain:  "https://vibrant-wing-ee8037.netlify.app/"
 
 media_folder: static/img
 public_folder: /img
